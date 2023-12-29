@@ -38,6 +38,7 @@ class _LocationScreenState extends State<LocationScreen> {
         title: const Text('location screen'),
       ),
       body: Center(
+
         child: Column(
          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment:MainAxisAlignment.center,
