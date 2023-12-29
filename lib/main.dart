@@ -103,7 +103,7 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Map Demo'),
+        title: const Text('Real Time Location Tracker'),
       ),
       body: GoogleMap(
         onMapCreated: (GoogleMapController controller) {
