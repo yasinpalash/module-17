@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'location_screen.dart';
+import 'package:google_maps/Home_screen.dart';
 
 void main() {
   runApp(const GoogleMapsApp());
@@ -14,7 +14,7 @@ class GoogleMapsApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: LocationScreen(),
+      home: HomeScreen(),
     );
   }
 }
